@@ -14,6 +14,8 @@ public class HailStone {
             n = (n%2 == 0)? n/2: n*3+1;
         }
         
+        list.add(1);
+        
         return list.toArray(new Integer[list.size()]);
     }
 
