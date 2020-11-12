@@ -1,4 +1,4 @@
-public class Main extends Thread {
+public class q1 extends Thread {
     public void run() {
         for(int i=0;i<100;i++) {
             System.out.println(i+1);
@@ -13,7 +13,7 @@ public class Main extends Thread {
     }
     public static void main(String[] args)
     {
-        Main obj = new Main();
+        q1 obj = new q1();
         obj.start();
     }
 }
