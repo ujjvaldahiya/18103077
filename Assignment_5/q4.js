@@ -8,8 +8,14 @@ function christmasTree(x) {
         for(let j = 1; j <= x + x - 1; j++) {
             if(j <= x - i || j >= x + i) {
                 tree += " ";
-            } else {
-                tree += "*";
+            }
+            else {
+                if(i==1){
+                    tree+="*";
+                }
+                else{
+                tree += "0";
+                }
             }
         }
         tree += "\n";
